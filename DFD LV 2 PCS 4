@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T15:00:33.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ygGORGbOgGiuwZ2CRXXL" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-28T14:14:14.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="OONQahzEiUqfdfkwEEeL" version="14.7.0" type="github">
   <diagram id="Minda1e3rVIZOjcN06RG" name="Page-1">
-    <mxGraphModel dx="697" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="773" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lnmCPyoFRkNT_fW0gjOE-1" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="lnmCPyoFRkNT_fW0gjOE-1" value="Owner" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="240" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lnmCPyoFRkNT_fW0gjOE-3" value="4.1&lt;br&gt;Laporan Produk" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="lnmCPyoFRkNT_fW0gjOE-3" value="4.1&lt;br&gt;Laporan Produk dan Stok" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="280" y="130" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lnmCPyoFRkNT_fW0gjOE-4" value="4.2&lt;br&gt;Laporan Penjualan" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="lnmCPyoFRkNT_fW0gjOE-4" value="4.2&lt;br&gt;Laporan Pembayaran" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="280" y="220" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lnmCPyoFRkNT_fW0gjOE-5" value="4.3&lt;br&gt;Laporan Member" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -164,10 +164,10 @@
             <mxPoint x="40" y="0.02" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JZRoL22dmcwpOx1X5Wzw-2" value="&lt;span&gt;Kategori&lt;/span&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="JZRoL22dmcwpOx1X5Wzw-2" value="&lt;span&gt;Kategori&lt;/span&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="512.03" y="61.999999999999986" width="57.97" height="31.52" as="geometry" />
         </mxCell>
-        <mxCell id="JZRoL22dmcwpOx1X5Wzw-3" value="" style="endArrow=classic;html=1;exitX=0.263;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lnmCPyoFRkNT_fW0gjOE-3">
+        <mxCell id="JZRoL22dmcwpOx1X5Wzw-3" value="" style="endArrow=classic;html=1;exitX=0.263;exitY=0.063;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lnmCPyoFRkNT_fW0gjOE-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="121.03999999999996" as="sourcePoint" />
             <mxPoint x="500" y="70" as="targetPoint" />
@@ -176,12 +176,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JZRoL22dmcwpOx1X5Wzw-4" value="Data Kategori" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JZRoL22dmcwpOx1X5Wzw-3">
+        <mxCell id="JZRoL22dmcwpOx1X5Wzw-4" value="Data Kategori" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JZRoL22dmcwpOx1X5Wzw-3" vertex="1" connectable="0">
           <mxGeometry x="-0.3761" y="-1" relative="1" as="geometry">
             <mxPoint x="51" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JZRoL22dmcwpOx1X5Wzw-5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="lnmCPyoFRkNT_fW0gjOE-3">
+        <mxCell id="JZRoL22dmcwpOx1X5Wzw-5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="lnmCPyoFRkNT_fW0gjOE-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="494" y="90" as="sourcePoint" />
             <mxPoint x="332" y="100" as="targetPoint" />
@@ -193,7 +193,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JZRoL22dmcwpOx1X5Wzw-6" value="Data Kategori" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JZRoL22dmcwpOx1X5Wzw-5">
+        <mxCell id="JZRoL22dmcwpOx1X5Wzw-6" value="Data Kategori" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JZRoL22dmcwpOx1X5Wzw-5" vertex="1" connectable="0">
           <mxGeometry x="0.549" relative="1" as="geometry">
             <mxPoint x="40" y="0.02" as="offset" />
           </mxGeometry>
